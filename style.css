@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.icon-salt {
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.card {
+    border: 1.5px solid rgb(0, 0, 0);
+    margin: 10px;
+    width: 70vh;
+}
+
+.footer {
+    margin-top: -45px;
+}
+
+.breadcrumb {
+    margin-left: 15px;
+}
