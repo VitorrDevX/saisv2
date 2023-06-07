@@ -1,172 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Sais</title>
 </head>
-
 <body>
-    <nav class="navbar is-transparent">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="">
-                <img src="https://th.bing.com/th/id/R.b8fd08e1217ffd6a16879c0369e943b8?rik=nJw8sv2Pd4Jw0A&pid=ImgRaw&r=0"
-                    alt="Bulma: a modern CSS framework based on Flexbox" width="40" height="70">
-            </a>
-            <div class="navbar-burger" data-target="navbarExampleTransparentExample">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
-            <div class="navbar-start">
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link" href="">
-                        Sais
-                    </a>
-                    <div class="navbar-dropdown is-boxed">
-                        <a class="navbar-item" href="">
-                            Sal do Himalaia
-                        </a>
-                        <a class="navbar-item" href="">
-                            Sal grosso
-                        </a>
-                        <a class="navbar-item" href="">
-                            Sal refinado
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="navbar-end">
-                <div class="navbar-item">
-                    <div class="field is-grouped">
-                        <p class="control">
-                            <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet"
-                                data-social-target="" target="_blank" href="">
-                                <span class="icon">
-                                    <i class="fa-solid fa-circle-plus" style="color: #0054e6;"></i>
-                                </span>
-                                <span>
-                                    Ver mais sobre os sais
-                                </span>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <div class="cards">
-
-        <div class="card ">
-            <div class="card-image">
-                <figure class="image is-5by4">
-                    <img src="https://th.bing.com/th/id/R.5c4e550c045b7b2996c542e52290cc45?rik=LP3XTXiWJufmNg&pid=ImgRaw&r=0"
-                        alt="Placeholder image">
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-64x64">
-                            <img src="https://th.bing.com/th/id/OIP.ZXSPQ1FxeTUknpELi_wqSwHaFp?pid=ImgDet&w=500&h=381&rs=1"
-                                alt="Placeholder image">
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <p class="title is-4">Sal Refinado</p>
-                        <p class="subtitle is-6">@salrefinado</p>
-                    </div>
-                </div>
-
-                <div class="content">
-                    Condimento básico para temperar alimentos na culinária. <a>#salrefinado</a>.
-                    <br>
-                    <time datetime="2023-1-1">1/06/2023 - 11:53</time>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-image">
-                <figure class="image is-5by4">
-                    <img src="https://th.bing.com/th/id/R.cad32011a91b97aa3d5352a3f86ef102?rik=Z%2bhGXmZwAEHdQQ&pid=ImgRaw&r=0"
-                        alt="Placeholder image">
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-64x64">
-                            <img src="https://th.bing.com/th/id/OIP.EI_WJy1hf6YG78gXOXwRTwAAAA?pid=ImgDet&rs=1"
-                                alt="Placeholder image">
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <p class="title is-4">Sal do Himalaia</p>
-                        <p class="subtitle is-6">@saldohimalaia</p>
-                    </div>
-                </div>
-
-                <div class="content">
-                    Sal rosa, menos processado, possível benefício para saúde <a>#salrosa</a>.
-                    <br>
-                    <time datetime="2023-1-1">1/06/2023 - 12:10</time>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-image">
-                <figure class="image is-5by4">
-                    <img src="https://th.bing.com/th/id/R.a75e5d34180ca66660ef3fd5333e9f8a?rik=J3N5iXkXc0Oa8w&riu=http%3a%2f%2f3.bp.blogspot.com%2f-M4xPDfm5Qq0%2fTu6O2ZP828I%2fAAAAAAAACGI%2fyi7Npa0XxJw%2fs400%2fComemora%2525C3%2525A7%2525C3%2525B5es1.jpg&ehk=OEnGD6XIYNOUIG5284V05GZTJJ8vKvUkB75IGcLGVzQ%3d&risl=&pid=ImgRaw&r=0"
-                        alt="Placeholder image">
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image is-64x64">
-                            <img src="https://th.bing.com/th/id/R.a75e5d34180ca66660ef3fd5333e9f8a?rik=J3N5iXkXc0Oa8w&riu=http%3a%2f%2f3.bp.blogspot.com%2f-M4xPDfm5Qq0%2fTu6O2ZP828I%2fAAAAAAAACGI%2fyi7Npa0XxJw%2fs400%2fComemora%2525C3%2525A7%2525C3%2525B5es1.jpg&ehk=OEnGD6XIYNOUIG5284V05GZTJJ8vKvUkB75IGcLGVzQ%3d&risl=&pid=ImgRaw&r=0"
-                                alt="Placeholder image">
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <p class="title is-4">Sal Grosso</p>
-                        <p class="subtitle is-6">@salgrosso</p>
-                    </div>
-                </div>
-
-                <div class="content">
-                    Condimento básico para temperar alimentos na culinária.
-                    <br>
-                    <time datetime="2023-1-1">1/06/2023 - 12:50</time>
-                </div>
-            </div>
+    <div class="box-up">
+        <div class="texts">
+            <div class="nome">ELETIVA CISECO</div>
+            <div class="desc">Quarta-feira, 07 de junho de 2023</div>
         </div>
     </div>
 
-    <footer class="footer">
-        <div class="content has-text-centered">
-            <p>
-                <strong>Este site</strong> foi feito por <a href="">Vitor e Naan</a>. Exclusivamente para a mostra de
-                estudos do dia
-                <a href="">1/06/2023</a>. ©
-            </p>
-        </div>
-    </footer>
-
+    <div class="title">
+        Consumidor encontra carro em Santos com desconto de até R$10 mil.
+    </div>
+    <div class="description">
+        Programa que reduz preço dos automoveis vendidos em ate 120k pegam e tecam o desconto
+    </div>
+    <div class="por">
+        Por: <a>Vitor e Naan</a> - 07/06/2023 - 8:47
+        <img src="https://th.bing.com/th/id/R.b649f9607d1349299215b370ec3270ce?rik=blpzuLlF8VbOlw&riu=http%3a%2f%2fsemmedida.com%2fwp-content%2fuploads%2f2013%2f11%2fsalt.jpg&ehk=5cs7GKmIaoBaDcdCpsdQpr%2fY3t8moftB2bk%2fGr%2bW70o%3d&risl=&pid=ImgRaw&r=0" class="image">
+    </div>
 </body>
-
 </html>
