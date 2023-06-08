@@ -63,4 +63,9 @@ body {
 
 .texto-geral {
     text-align: center;
+    margin: 15px;
+}
+
+.texto-geral a {
+    font-family: 'Archivo Black', sans-serif;
 }
